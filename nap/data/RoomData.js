@@ -232,23 +232,6 @@ var BotRoomData = {
 
 var botname = null;
 
-bonfireDashedNames.map(function (bfName) {
-    var room = {
-        name: "camperbot/" + bfName,
-        isBonfire: true
-    };
-    BotRoomData.camperbot.push(room);
-});
-
-BotRoomData.camperbot.map(function (room) {
-    room.title = room.title || room.name.split("/")[1];
-    if (room.isBonfire) {
-        //room.entry = "FreeCodeCamp/HelpBonfires",
-        room.entry = "camperbot/testing";
-        room.topic = room.title;
-    }
-});
-
 RoomData = {
     rooms: function (botname) {
         botname = botname || AppConfig.getBotName();
