@@ -111,6 +111,7 @@ var bonfireDashedNames = [
 var camperBotChatRooms = [
     "FreeCodeCamp/admin",
     "FreeCodeCamp/camperbot",
+    "FreeCodeCamp/camperbotPlayground",
     "FreeCodeCamp/Casual",
     "FreeCodeCamp/CodeReview",
     "FreeCodeCamp/CodingJobs",
@@ -122,10 +123,10 @@ var camperBotChatRooms = [
     "FreeCodeCamp/HelpBasejumps",
     "FreeCodeCamp/HelpBonfires",
     "FreeCodeCamp/HelpZiplines",
+    "FreeCodeCamp/LetsPair",
     "FreeCodeCamp/LiveCoding",
     "FreeCodeCamp/PairProgrammingWomen",
-    "FreeCodeCamp/YouCanDoThis",
-    "FreeCodeCamp/camperbotPlayground"
+    "FreeCodeCamp/YouCanDoThis"
 ];
 
 // @TODO Refactor into a room generator function
