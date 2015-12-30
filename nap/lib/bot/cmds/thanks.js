@@ -136,7 +136,7 @@ var thanksCommands = {
             var bio = blob.response.about.bio || "no bio set";
 
             var uri = "http://www.freecodecamp.com/" + username;
-            str = "> :star: " + about.browniePoints + " | @" + username + " | ";
+            str = "> :poop: " + about.browniePoints + " | @" + username + " | ";
             str += TextLib.mdLink(uri, uri);
         } catch (err) {
             Utils.error("cant create response from API callback", err);
