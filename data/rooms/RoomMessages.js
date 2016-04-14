@@ -50,8 +50,12 @@ const AllRoomMessages = [
     chance: 1
   },
   {
-    regex: /\bth?a?n?[xk]s?q?\b/gim,
+    regex: /[^`@\\](t[xyq]|th(nx|nq|x)|than[xk]s?(you|[syxzq]){0,1})\b/gi,
     func: BotCommands.thanks
+  },
+  {
+    regex: /[^`@\\]l[ou]ve?\s(u|you|me)?,?\s?(cbot|@?camperbot)\b/gi,
+    func: BotCommands.love
   }
 ];
 
