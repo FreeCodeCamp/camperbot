@@ -129,7 +129,7 @@ git clone https://github.com/FreeCodeCamp/camperbot.git
 -   Run the following commands to run the app:
 
 ```sh
-cd campberbot
+cd camperbot
 copy dot-EXAMPLE.env dot.env
 git submodule update --remote --checkout --init --recursive
 npm install
