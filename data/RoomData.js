@@ -128,14 +128,14 @@ var camperBotChatRooms = [
     'FreeCodeCamp/java',
     'FreeCodeCamp/linux',
     'FreeCodeCamp/LiveCoding',
-    'FreeCodeCamp/YouTube',
     'FreeCodeCamp/PairProgrammingWomen',
     'FreeCodeCamp/php',
     'FreeCodeCamp/python',
     'FreeCodeCamp/ruby',
     'FreeCodeCamp/sql',
     'FreeCodeCamp/Wiki',
-    'FreeCodeCamp/YouCanDoThis'
+    'FreeCodeCamp/YouCanDoThis',
+    'FreeCodeCamp/YouTube'
 ];
 
 // @TODO Refactor into a room generator function
