@@ -147,7 +147,6 @@ const BotRoomData = {
   demobot: [{
     title: 'demobot',
     name: 'demobot/test',
-    icon: 'star',
     topics: ['getting started']
   }],
   // developer bot
@@ -155,12 +154,10 @@ const BotRoomData = {
     {
       title: 'bothelp',
       name: 'bothelp/testing',
-      icon: 'question',
       topics: ['chitchat', 'bots', 'bot-development', 'camperbot']
     },
     {
       title: 'HelpBonfires',
-      icon: 'fire',
       name: 'bothelp/HelpBonfires',
       topics: bonfireTopics
     },
