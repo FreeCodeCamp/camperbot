@@ -4,7 +4,7 @@ var test = require('tape'),
     AppConfig = require('../config/AppConfig');
 
 test('AppConfig test', t => {
-  t.plan(3);
+  t.plan(2);
 
   t.equal(AppConfig.testUser, 'bothelp', 'should have default AppConfig');
 
