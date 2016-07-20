@@ -4,7 +4,6 @@ const _ = require('lodash');
 const config = require('../config.json');
 
 const AppConfig = {
-  clientId: process.env.GITTER_APP_KEY,
   token: process.env.GITTER_USER_TOKEN,
   apiKey: process.env.FCC_API_KEY,
   supportDmRooms: false,
@@ -80,13 +79,13 @@ const AppConfig = {
     return AppConfig.org;
   },
 
-  topicDmUri: function(topic) {
-    let uri = AppConfig.appHost + '/go?dm=y&room=' + AppConfig.getBotName();
-    if (topic) {
-        uri += '&topic=' + topic;
-    }
-    return uri;
-  },
+  // topicDmUri: function(topic) {
+  //   let uri = AppConfig.appHost + '/go?dm=y&room=' + AppConfig.getBotName();
+  //   if (topic) {
+  //       uri += '&topic=' + topic;
+  //   }
+  //   return uri;
+  // },
 
   dmLink: function() {
     return 'https://gitter.im/' + AppConfig.getBotName();
@@ -94,38 +93,25 @@ const AppConfig = {
 };
 
 const envConfigs = {
-
   demobot: {
     botname: 'demobot',
-    appHost: 'http://localhost:7000',
-    apiServer: 'www.freecodecamp.com',
-    appRedirectUrl: 'http://localhost:7891/login/callback'
+    apiServer: 'www.freecodecamp.com'
   },
-
   test: {
     botname: 'bothelp',
-    appHost: 'http://localhost:7000',
-    apiServer: 'www.freecodecamp.com',
-    appRedirectUrl: 'http://localhost:7891/login/callback'
+    apiServer: 'www.freecodecamp.com'
   },
-
   local: {
     botname: 'bothelp',
-    appHost: 'http://localhost:7000',
-    apiServer: 'www.freecodecamp.com',
-    appRedirectUrl: 'http://localhost:7891/login/callback'
+    apiServer: 'www.freecodecamp.com'
   },
   beta: {
     botname: 'bothelp',
-    appHost: 'http://localhost:7000',
-    apiServer: 'beta.freecodecamp.com',
-    appRedirectUrl: 'http://localhost:7891/login/callback'
+    apiServer: 'beta.freecodecamp.com'
   },
   prod: {
     botname: 'camperbot',
-    appHost: 'http://bot.freecodecamp.com',
-    apiServer: 'www.freecodecamp.com',
-    appRedirectUrl: 'http://bot.freecodecamp.com/login/callback'
+    apiServer: 'www.freecodecamp.com'
   }
 };
 
