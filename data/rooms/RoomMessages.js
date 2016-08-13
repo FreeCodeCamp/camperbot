@@ -45,7 +45,7 @@ const AllRoomMessages = [
   },
   {
     // tests: https://regex101.com/r/hH5cN7/42
-    regex: /(?:^|\s)(?:(?:th(?:n[qx]|x)|t[xyq])|than[kx](?:[sxz]){0,2}(?:[uq]|y(?:ou)?)?)\b/i,
+    regex: /((?:^|\s)(?:(?:th(?:n[qx]|x)|t[xyq])|than[kx](?:[sxz]){0,2}(?:[uq]|y(?:ou)?)?)|gracias?|spasibo|dhanyavaad(?:hamulu)?|o?brigad(?:o|a)|dziekuje|(?:re)?merci|multumesc|shukra?an|danke)\b/gi,
     func: BotCommands.thanks
   },
   {
