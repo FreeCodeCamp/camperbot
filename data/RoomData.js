@@ -113,17 +113,13 @@ var camperBotChatRooms = [
     'FreeCodeCamp/Casual',
     'FreeCodeCamp/CodeReview',
     'FreeCodeCamp/CodingJobs',
-    'FreeCodeCamp/CurriculumDevelopment',
+    'FreeCodeCamp/Contributors',
     'FreeCodeCamp/DataScience',
-    'FreeCodeCamp/dotnet',
     'FreeCodeCamp/elixir',
     'FreeCodeCamp/FreeCodeCamp',
-    'FreeCodeCamp/Git',
-    'FreeCodeCamp/go',
     'FreeCodeCamp/HalfWayClub',
     'FreeCodeCamp/Help',
     'FreeCodeCamp/HelpBackEnd',
-    'FreeCodeCamp/HelpContributors',
     'FreeCodeCamp/HelpDataViz',
     'FreeCodeCamp/HelpFrontEnd',
     'FreeCodeCamp/HelpJavaScript',
@@ -132,9 +128,7 @@ var camperBotChatRooms = [
     'FreeCodeCamp/PairProgrammingWomen',
     'FreeCodeCamp/php',
     'FreeCodeCamp/python',
-    'FreeCodeCamp/ruby',
     'FreeCodeCamp/sql',
-    'FreeCodeCamp/Wiki',
     'FreeCodeCamp/YouCanDoThis'
 ];
 
