@@ -108,28 +108,20 @@ const bonfireDashedNames = [
 var camperBotChatRooms = [
     'FreeCodeCamp/admin',
     'FreeCodeCamp/Backend-Challenges',
-    'FreeCodeCamp/camperbot',
     'FreeCodeCamp/camperbotPlayground',
     'FreeCodeCamp/Casual',
     'FreeCodeCamp/CodeReview',
     'FreeCodeCamp/CodingJobs',
     'FreeCodeCamp/Contributors',
     'FreeCodeCamp/DataScience',
-    'FreeCodeCamp/elixir',
     'FreeCodeCamp/FreeCodeCamp',
-    'FreeCodeCamp/HalfWayClub',
     'FreeCodeCamp/Help',
     'FreeCodeCamp/HelpBackEnd',
     'FreeCodeCamp/HelpDataViz',
     'FreeCodeCamp/HelpFrontEnd',
     'FreeCodeCamp/HelpJavaScript',
-    'FreeCodeCamp/java',
     'FreeCodeCamp/linux',
-    'FreeCodeCamp/PairProgrammingWomen',
-    'FreeCodeCamp/php',
-    'FreeCodeCamp/python',
-    'FreeCodeCamp/sql',
-    'FreeCodeCamp/YouCanDoThis'
+    'FreeCodeCamp/PairProgrammingWomen'
 ];
 
 // @TODO Refactor into a room generator function
