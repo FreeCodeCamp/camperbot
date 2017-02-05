@@ -2,15 +2,20 @@
   "name": "camperbot",
   "version": "0.0.13",
   "dependencies": {
+    "body-parser": "~1.16.0",
     "cli-color": "",
+    "cookie-parser": "~1.4.3",
     "dotenv": "^1.2.0",
     "express": "~4.14.0",
+    "express-session": "~1.15.0",
     "jade": "~0.35.0",
     "lodash": "^3.10.1",
+    "method-override": "~2.3.7",
     "node-gitter": "^1.2.8",
     "passport": "~0.2.0",
     "passport-oauth2": "~1.1.1",
-    "request": "~2.27.0"
+    "request": "~2.27.0",
+    "serve-static": "~1.11.2"
   },
   "devDependencies": {
     "babel-eslint": "^6.0.0",

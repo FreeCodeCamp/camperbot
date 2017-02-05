@@ -13,25 +13,29 @@ const express = require('express'),
       passport = require('./lib/gitter/passportModule'),
       GBot = require('./lib/bot/GBot'),
       routes = require('./lib/app/routes.js'),
-      path = require('path');
+      path = require('path'),
+      bodyParser = require('body-parser'),
+      cookieParser = require('cookie-parser'),
+      methodOverride = require('method-override'),
+      session = require('express-session'),
+      serveStatic = require('serve-static');     
 
 const app = express();
 
 // Middlewares
 app.set('view engine', 'jade');
 app.set('views', path.join(__dirname, '/views'));
-app.use(express.json());
-app.use(express.urlencoded());
-app.use(express.static(path.join(__dirname, '/public')));
-app.use(express.bodyParser());
-app.use(express.methodOverride());
-app.use(express.cookieParser());
-app.use(express.session({
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded());
+app.use(serveStatic(path.join(__dirname, '/public')));
+app.use(bodyParser());
+app.use(methodOverride());
+app.use(cookieParser());
+app.use(session({
   secret: 'keyboard cat'
 }));
 app.use(passport.initialize());
 app.use(passport.session());
-app.use(app.router);
 
 GBot.init();
 routes.init(app, GBot, passport);
