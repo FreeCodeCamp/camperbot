@@ -21,7 +21,7 @@ Test the CamperBot in the
 [Gitter.im/FreeCodeCamp/camperbotPlayground](https://gitter.im/FreeCodeCamp/camperbotPlayground)
 room.
 
-CamperBot was originally created by for [Free Code Camp](http://www.freecodecamp.com) by [@dcsan](https://github.com/dcsan) at [RIKAI Labs](mailto:dc@rikai.co), and is now maintained by our open source community.
+CamperBot was originally created by for [Free Code Camp](https://www.freecodecamp.org) by [@dcsan](https://github.com/dcsan) at [RIKAI Labs](mailto:dc@rikai.co), and is now maintained by our open source community.
 
 ## Contents
 -   [Introducing CamperBot!](https://github.com/FreeCodeCamp/camperbot/#introducing-camperbot)
@@ -48,7 +48,7 @@ CamperBot was originally created by for [Free Code Camp](http://www.freecodecamp
 
 CamperBot is a full featured chat bot for [Gitter.im](https://gitter.im)
 developed to integrate with the chat rooms for
-[FreeCodeCamp &mdash; the largest online coding bootcamp in the world](http://www.freecodecamp.com/)
+[FreeCodeCamp &mdash; the largest online coding bootcamp in the world](https://www.freecodecamp.org/)
 , where it serves more than 60,000 campers.
 
 ### Github Wiki Search
