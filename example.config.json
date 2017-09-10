@@ -3,7 +3,7 @@
   "user": {
     "botname": "GITHUB_USER_ID",
     "appHost": "http://localhost:7000",
-    "apiServer": "www.freecodecamp.com",
+    "apiServer": "www.freecodecamp.org",
     "appRedirectUrl": "http://localhost:7891/login/callback"
   },
   "rooms": [

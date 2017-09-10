@@ -8,7 +8,7 @@ const AppConfig = {
   clientId: process.env.GITTER_APP_KEY,
   token: process.env.GITTER_USER_TOKEN,
   apiKey: process.env.FCC_API_KEY,
-  supportDmRooms: false,
+  supportDmRooms: true,
   botname: null,
   roomId: '55b1a9030fc9f982beaac901',
   org: 'bothelp',
