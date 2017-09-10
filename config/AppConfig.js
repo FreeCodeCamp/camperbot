@@ -88,34 +88,34 @@ const envConfigs = {
   demobot: {
     botname: 'demobot',
     appHost: 'http://localhost:7000',
-    apiServer: 'www.freecodecamp.com',
+    apiServer: 'www.freecodecamp.org',
     appRedirectUrl: 'http://localhost:7891/login/callback'
   },
 
   test: {
     botname: 'bothelp',
     appHost: 'http://localhost:7000',
-    apiServer: 'www.freecodecamp.com',
+    apiServer: 'www.freecodecamp.org',
     appRedirectUrl: 'http://localhost:7891/login/callback'
   },
 
   local: {
     botname: 'bothelp',
     appHost: 'http://localhost:7000',
-    apiServer: 'www.freecodecamp.com',
+    apiServer: 'www.freecodecamp.org',
     appRedirectUrl: 'http://localhost:7891/login/callback'
   },
   beta: {
     botname: 'bothelp',
     appHost: 'http://localhost:7000',
-    apiServer: 'beta.freecodecamp.com',
+    apiServer: 'beta.freecodecamp.org',
     appRedirectUrl: 'http://localhost:7891/login/callback'
   },
   prod: {
     botname: 'camperbot',
-    appHost: 'http://bot.freecodecamp.com',
-    apiServer: 'www.freecodecamp.com',
-    appRedirectUrl: 'http://bot.freecodecamp.com/login/callback'
+    appHost: 'http://bot.freecodecamp.org',
+    apiServer: 'www.freecodecamp.org',
+    appRedirectUrl: 'http://bot.freecodecamp.org/login/callback'
   }
 };
 
