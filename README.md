@@ -82,7 +82,7 @@ To run camperbot, you need [Node.js](https://nodejs.org/) 4.2.0 or greater.
 
 To install Node, [follow the instructions here](http://blog.teamtreehouse.com/install-node-js-npm-mac)
 
--   To make your the local server automatically watch for file changes,
+-   To make your local server automatically watch for file changes,
     install "nodemon" (you may need `sudo`)
 
 ```sh
@@ -115,7 +115,7 @@ You can now chat to your bot via [Gitter.im](https://gitter.im) at
 
 To install Node.js on Windows, [follow these instructions](http://blog.teamtreehouse.com/install-node-js-npm-windows).
 
--   To make your the local server automatically watch for file changes,
+-   To make your local server automatically watch for file changes,
     install "nodemon" in an administrator console.
 
 ```sh
@@ -252,7 +252,7 @@ If you type `echo this` you'll get
 
 ```js
 //input
-{   
+{
     keyword: 'echo',
     params: 'this'
 }
