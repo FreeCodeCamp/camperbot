@@ -53,10 +53,10 @@ developed to integrate with the chat rooms for
 
 ### Github Wiki Search
 
-You can search for articles in a projects github wiki
+You can search for articles in a project's GitHub wiki
 ![](https://freecodecamp.github.io/camperbot/images/anims/find.gif)
 
-### Share wiki summaries in chat
+### Share Wiki summaries in chat
 
 Use `explain` to pull a wiki summary right into the chat:
 ![](https://freecodecamp.github.io/camperbot/images/anims/explain.gif)
@@ -164,7 +164,7 @@ You can either
 
 Follow the instructions for signing up on [https://github.com/](GitHub)
 
-change the `SERVER_ENV=demobot` in your `.env` to `server_ENV=USERNAMEHERE`
+Change the `SERVER_ENV=demobot` in your `.env` to `server_ENV=USERNAMEHERE`
 where *USERNAMEHERE* is your github user name.
 
 ### Getting your own appID
@@ -182,10 +182,10 @@ The next page should show you various API keys/secrets. Use those to replace
 the demobot default options in your `.env`.
 
 ### Configure your bot
-Now it is time to set up your bot w/ the app.
+Now it is time to set up your bot with the app.
 Copy `example.config.json` to `config.json` and open `config.json` in your
 editor.
-Replace all instances of GITHUB_USER_ID with your user name
+Replace all instances of GITHUB_USER_ID with your username
 set up earlier.
 
 Take note of the the rooms property of config. You can set up additional gitter rooms
@@ -284,7 +284,7 @@ where `input.keyword` is `thanks` then
 
 `BotCommands[input.keyword]` is like saying `BotCommands.thanks()`
 
-so then the params get also added in `(input, this)` so its
+so then the params get also added in `(input, this)` so it's
 
 ```js
 BotCommands[input.keyword](input, this);
